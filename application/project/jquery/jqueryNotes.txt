@@ -1,0 +1,87 @@
+******	JQuery **********
+
+-JQuery is the most popular Javascript library used in the web applications today
+
+-Developed by John Resig in 2006
+
+-It is opensource
+
+-Light weight,cross browser,CSS3 compatible
+supports AJAX capabilities,event handling & animation effects
+
+*****2 ways to include the library
+1)download & use local copy
+<script type="text/javascript" src="jquery.js">
+
+
+2)use publicly hosted copy from CDN[Community Development Network]
+such as google & Microsoft
+
+<script type="text/javascript" src="http://ajaxgoogleapis.com/ajax/libs/jquery/1.4.2/
+			jquery.min.js">
+
+or
+
+<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery.1.4.2.min.js">
+
+________________________________________________________________
+*****JQuery Syntax
+	$(selector).action()
+
+eg:
+
+$('p').hide();
+$('#div1').show();
+$('.mystyle').show();
+
+$('div').slideUp();
+
+
+________________________________________________________________
+*****JQuery Events
+ready
+click
+dblclick
+mouseenter
+mouseleave
+
+________________________________________________________________
+*****JQuery Methods
+show(effect,speed)  
+Here effect=fold,bounce,blind,clip,drop,explode,highlight,puff,scale,
+	sizze,slide
+
+hide(effect,speed)
+toggle(effect,speed)
+remove
+slideUp(speed) 
+slideDown(speed)       
+slideToggle(speed)  speed=slow/fast/medium/time in ms
+
+
+
+fadeOut
+fadeIn
+animate({params},speed)
+	{key1:val1,key2:val2}
+
+css({key:value})
+
+addClass('classname')
+removeClass('classname')
+toggleClass('classname')
+
+
+hide(speed,callback);
+
+draggable
+droppable
+sortable
+
+
+text()
+find(element)
+
+
+
+____________________________________________________________
